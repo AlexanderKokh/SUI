@@ -8,8 +8,36 @@
 import SwiftUI
 
 struct SwitchView: View {
+    @State var isOnToggle = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ZStack{
+                HStack {
+                    VStack {
+                        Text("Кошелек")
+                        Text("Профиль")
+                        Spacer().frame(height: 300)
+                    }
+                    .padding()
+                    Spacer()
+                }
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color.yellow)
+                    .offset(x: isOnToggle ? 100 : 0)
+                    .frame(width: 400, height: 600)
+                Text("Текст на экране")
+                    .offset(x: isOnToggle ? 100 : 0)
+            }
+            Toggle(isOn: $isOnToggle, label: {
+                Text("Показать настройки")
+            }).padding()
+        }
+        .animation(.spring(
+            response: 0.9,
+            dampingFraction: 0.5,
+            blendDuration: 0.3)
+        )
     }
 }
 
