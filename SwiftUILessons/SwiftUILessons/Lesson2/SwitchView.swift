@@ -10,18 +10,22 @@ import SwiftUI
 struct SwitchView: View {
     @State var isOnToggle = false
     
+    var configureHStack: some View {
+        HStack {
+            VStack {
+                Text("Кошелек")
+                Text("Профиль")
+                Spacer().frame(height: 300)
+            }
+            .padding()
+            Spacer()
+        }
+    }
+    
     var body: some View {
         VStack {
             ZStack{
-                HStack {
-                    VStack {
-                        Text("Кошелек")
-                        Text("Профиль")
-                        Spacer().frame(height: 300)
-                    }
-                    .padding()
-                    Spacer()
-                }
+                configureHStack
                 RoundedRectangle(cornerRadius: 10)
                     .fill(Color.yellow)
                     .offset(x: isOnToggle ? 100 : 0)
@@ -29,9 +33,10 @@ struct SwitchView: View {
                 Text("Текст на экране")
                     .offset(x: isOnToggle ? 100 : 0)
             }
-            Toggle(isOn: $isOnToggle, label: {
+            Toggle(isOn: $isOnToggle) {
                 Text("Показать настройки")
-            }).padding()
+            }
+            .padding()
         }
         .animation(.spring(
             response: 0.9,

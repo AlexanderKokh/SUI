@@ -12,6 +12,7 @@
 		E5721BBE2876E93300CCEDD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5721BBD2876E93300CCEDD8 /* Preview Assets.xcassets */; };
 		E5721BC52876E94500CCEDD8 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5721BC42876E94500CCEDD8 /* AlertView.swift */; };
 		E5721BC72876E94D00CCEDD8 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5721BC62876E94D00CCEDD8 /* SwitchView.swift */; };
+		E5944E0128782A5B008299EC /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5944E0028782A5B008299EC /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E5721BBD2876E93300CCEDD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E5721BC42876E94500CCEDD8 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		E5721BC62876E94D00CCEDD8 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		E5944E0028782A5B008299EC /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				E5721BB62876E93200CCEDD8 /* SwiftUILessonsApp.swift */,
 				E5721BC82876E95600CCEDD8 /* Lesson1 */,
 				E5721BC92876E95D00CCEDD8 /* Lesson2 */,
+				E5944DFF28782626008299EC /* Lesson3 */,
 				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
 				E5721BBC2876E93300CCEDD8 /* Preview Content */,
 			);
@@ -84,6 +87,14 @@
 				E5721BC62876E94D00CCEDD8 /* SwitchView.swift */,
 			);
 			path = Lesson2;
+			sourceTree = "<group>";
+		};
+		E5944DFF28782626008299EC /* Lesson3 */ = {
+			isa = PBXGroup;
+			children = (
+				E5944E0028782A5B008299EC /* PickerView.swift */,
+			);
+			path = Lesson3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5944E0128782A5B008299EC /* PickerView.swift in Sources */,
 				E5721BC72876E94D00CCEDD8 /* SwitchView.swift in Sources */,
 				E5721BB72876E93200CCEDD8 /* SwiftUILessonsApp.swift in Sources */,
 				E5721BC52876E94500CCEDD8 /* AlertView.swift in Sources */,
