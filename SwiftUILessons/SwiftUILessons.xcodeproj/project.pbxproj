@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50F469C287EDB8E009D9523 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F469B287EDB8E009D9523 /* TabView.swift */; };
 		E55FCDA8287CCE600042D2E4 /* SegmentViewSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FCDA7287CCE600042D2E4 /* SegmentViewSUI.swift */; };
 		E5721BB72876E93200CCEDD8 /* SwiftUILessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5721BB62876E93200CCEDD8 /* SwiftUILessonsApp.swift */; };
 		E5721BBB2876E93300CCEDD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5721BBA2876E93300CCEDD8 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E50F469B287EDB8E009D9523 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		E55FCDA7287CCE600042D2E4 /* SegmentViewSUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewSUI.swift; sourceTree = "<group>"; };
 		E5721BB32876E93200CCEDD8 /* SwiftUILessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5721BB62876E93200CCEDD8 /* SwiftUILessonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILessonsApp.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E50F469A287ED977009D9523 /* Lesson 8 */ = {
+			isa = PBXGroup;
+			children = (
+				E50F469B287EDB8E009D9523 /* TabView.swift */,
+			);
+			path = "Lesson 8";
+			sourceTree = "<group>";
+		};
 		E55FCDA6287CCE3E0042D2E4 /* Lesson 5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 				E55FCDA6287CCE3E0042D2E4 /* Lesson 5 */,
 				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
 				E5B98601287E135700AD31E8 /* Lesson 6 */,
+				E50F469A287ED977009D9523 /* Lesson 8 */,
 				E5C62918287EC69A00A28E66 /* Lesson 7 */,
 				E5721BBC2876E93300CCEDD8 /* Preview Content */,
 			);
@@ -218,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50F469C287EDB8E009D9523 /* TabView.swift in Sources */,
 				E5944E0128782A5B008299EC /* PickerView.swift in Sources */,
 				E5721BC72876E94D00CCEDD8 /* SwitchView.swift in Sources */,
 				E5C6291A287EC75000A28E66 /* Content_NavigationView.swift in Sources */,
