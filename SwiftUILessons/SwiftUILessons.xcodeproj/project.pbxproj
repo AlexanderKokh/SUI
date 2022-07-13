@@ -15,6 +15,7 @@
 		E5721BC52876E94500CCEDD8 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5721BC42876E94500CCEDD8 /* AlertView.swift */; };
 		E5721BC72876E94D00CCEDD8 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5721BC62876E94D00CCEDD8 /* SwitchView.swift */; };
 		E58538F0287F66AC007BC1F6 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58538EF287F66AC007BC1F6 /* TextView.swift */; };
+		E58538F3287F6C97007BC1F6 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58538F2287F6C97007BC1F6 /* TextFieldView.swift */; };
 		E5944E0128782A5B008299EC /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5944E0028782A5B008299EC /* PickerView.swift */; };
 		E5944E0428786400008299EC /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5944E0328786400008299EC /* SliderView.swift */; };
 		E5944E0628786E5F008299EC /* The Business.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5944E0528786E5E008299EC /* The Business.mp3 */; };
@@ -33,6 +34,7 @@
 		E5721BC42876E94500CCEDD8 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		E5721BC62876E94D00CCEDD8 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
 		E58538EF287F66AC007BC1F6 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		E58538F2287F6C97007BC1F6 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		E5944E0028782A5B008299EC /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		E5944E0328786400008299EC /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		E5944E0528786E5E008299EC /* The Business.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Business.mp3"; sourceTree = "<group>"; };
@@ -94,11 +96,12 @@
 				E5944DFF28782626008299EC /* Lesson3 */,
 				E5944E02287863D8008299EC /* Lesson4 */,
 				E55FCDA6287CCE3E0042D2E4 /* Lesson 5 */,
-				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
-				E58538EE287F6698007BC1F6 /* Lesson 9 */,
 				E5B98601287E135700AD31E8 /* Lesson 6 */,
-				E50F469A287ED977009D9523 /* Lesson 8 */,
 				E5C62918287EC69A00A28E66 /* Lesson 7 */,
+				E50F469A287ED977009D9523 /* Lesson 8 */,
+				E58538EE287F6698007BC1F6 /* Lesson 9 */,
+				E58538F1287F6C59007BC1F6 /* Lesson 10 */,
+				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
 				E5721BBC2876E93300CCEDD8 /* Preview Content */,
 			);
 			path = SwiftUILessons;
@@ -134,6 +137,14 @@
 				E58538EF287F66AC007BC1F6 /* TextView.swift */,
 			);
 			path = "Lesson 9";
+			sourceTree = "<group>";
+		};
+		E58538F1287F6C59007BC1F6 /* Lesson 10 */ = {
+			isa = PBXGroup;
+			children = (
+				E58538F2287F6C97007BC1F6 /* TextFieldView.swift */,
+			);
+			path = "Lesson 10";
 			sourceTree = "<group>";
 		};
 		E5944DFF28782626008299EC /* Lesson3 */ = {
@@ -242,6 +253,7 @@
 			files = (
 				E50F469C287EDB8E009D9523 /* TabView.swift in Sources */,
 				E58538F0287F66AC007BC1F6 /* TextView.swift in Sources */,
+				E58538F3287F6C97007BC1F6 /* TextFieldView.swift in Sources */,
 				E5944E0128782A5B008299EC /* PickerView.swift in Sources */,
 				E5721BC72876E94D00CCEDD8 /* SwitchView.swift in Sources */,
 				E5C6291A287EC75000A28E66 /* Content_NavigationView.swift in Sources */,
