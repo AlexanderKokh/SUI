@@ -22,6 +22,7 @@
 		E5B98603287E136F00AD31E8 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B98602287E136F00AD31E8 /* ActivityView.swift */; };
 		E5B98605287E151100AD31E8 /* Content_ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B98604287E151100AD31E8 /* Content_ActivityView.swift */; };
 		E5C6291A287EC75000A28E66 /* Content_NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C62919287EC75000A28E66 /* Content_NavigationView.swift */; };
+		E5E47A492880B9CC00F7CB85 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E47A482880B9CC00F7CB85 /* TextEditorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		E5B98602287E136F00AD31E8 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		E5B98604287E151100AD31E8 /* Content_ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content_ActivityView.swift; sourceTree = "<group>"; };
 		E5C62919287EC75000A28E66 /* Content_NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content_NavigationView.swift; sourceTree = "<group>"; };
+		E5E47A482880B9CC00F7CB85 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				E58538EE287F6698007BC1F6 /* Lesson 9 */,
 				E58538F1287F6C59007BC1F6 /* Lesson 10 */,
 				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
+				E5E47A472880B9AE00F7CB85 /* Lesson 11 */,
 				E5721BBC2876E93300CCEDD8 /* Preview Content */,
 			);
 			path = SwiftUILessons;
@@ -180,6 +183,14 @@
 			path = "Lesson 7";
 			sourceTree = "<group>";
 		};
+		E5E47A472880B9AE00F7CB85 /* Lesson 11 */ = {
+			isa = PBXGroup;
+			children = (
+				E5E47A482880B9CC00F7CB85 /* TextEditorView.swift */,
+			);
+			path = "Lesson 11";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -251,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E47A492880B9CC00F7CB85 /* TextEditorView.swift in Sources */,
 				E50F469C287EDB8E009D9523 /* TabView.swift in Sources */,
 				E58538F0287F66AC007BC1F6 /* TextView.swift in Sources */,
 				E58538F3287F6C97007BC1F6 /* TextFieldView.swift in Sources */,
