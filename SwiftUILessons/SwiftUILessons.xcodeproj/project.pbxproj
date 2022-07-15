@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E50F469C287EDB8E009D9523 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F469B287EDB8E009D9523 /* TabView.swift */; };
+		E5158D56288208F600C56A9B /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5158D55288208F600C56A9B /* Scroll.swift */; };
 		E55FCDA8287CCE600042D2E4 /* SegmentViewSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FCDA7287CCE600042D2E4 /* SegmentViewSUI.swift */; };
 		E5721BB72876E93200CCEDD8 /* SwiftUILessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5721BB62876E93200CCEDD8 /* SwiftUILessonsApp.swift */; };
 		E5721BBB2876E93300CCEDD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5721BBA2876E93300CCEDD8 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		E50F469B287EDB8E009D9523 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		E5158D55288208F600C56A9B /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
 		E55FCDA7287CCE600042D2E4 /* SegmentViewSUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewSUI.swift; sourceTree = "<group>"; };
 		E5721BB32876E93200CCEDD8 /* SwiftUILessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5721BB62876E93200CCEDD8 /* SwiftUILessonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILessonsApp.swift; sourceTree = "<group>"; };
@@ -64,6 +66,14 @@
 				E50F469B287EDB8E009D9523 /* TabView.swift */,
 			);
 			path = "Lesson 8";
+			sourceTree = "<group>";
+		};
+		E5158D542882089E00C56A9B /* Lesson 13 */ = {
+			isa = PBXGroup;
+			children = (
+				E5158D55288208F600C56A9B /* Scroll.swift */,
+			);
+			path = "Lesson 13";
 			sourceTree = "<group>";
 		};
 		E55FCDA6287CCE3E0042D2E4 /* Lesson 5 */ = {
@@ -105,9 +115,10 @@
 				E50F469A287ED977009D9523 /* Lesson 8 */,
 				E58538EE287F6698007BC1F6 /* Lesson 9 */,
 				E58538F1287F6C59007BC1F6 /* Lesson 10 */,
-				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
-				E5E47A4A2880C16400F7CB85 /* Lesson 12 */,
 				E5E47A472880B9AE00F7CB85 /* Lesson 11 */,
+				E5E47A4A2880C16400F7CB85 /* Lesson 12 */,
+				E5158D542882089E00C56A9B /* Lesson 13 */,
+				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
 				E5721BBC2876E93300CCEDD8 /* Preview Content */,
 			);
 			path = SwiftUILessons;
@@ -281,6 +292,7 @@
 				E5944E0128782A5B008299EC /* PickerView.swift in Sources */,
 				E5721BC72876E94D00CCEDD8 /* SwitchView.swift in Sources */,
 				E5C6291A287EC75000A28E66 /* Content_NavigationView.swift in Sources */,
+				E5158D56288208F600C56A9B /* Scroll.swift in Sources */,
 				E55FCDA8287CCE600042D2E4 /* SegmentViewSUI.swift in Sources */,
 				E5721BB72876E93200CCEDD8 /* SwiftUILessonsApp.swift in Sources */,
 				E5B98603287E136F00AD31E8 /* ActivityView.swift in Sources */,
