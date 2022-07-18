@@ -17,6 +17,7 @@
 		E5721BC72876E94D00CCEDD8 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5721BC62876E94D00CCEDD8 /* SwitchView.swift */; };
 		E58538F0287F66AC007BC1F6 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58538EF287F66AC007BC1F6 /* TextView.swift */; };
 		E58538F3287F6C97007BC1F6 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58538F2287F6C97007BC1F6 /* TextFieldView.swift */; };
+		E58CBF87288601C0007BF269 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CBF86288601C0007BF269 /* GridView.swift */; };
 		E5944E0128782A5B008299EC /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5944E0028782A5B008299EC /* PickerView.swift */; };
 		E5944E0428786400008299EC /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5944E0328786400008299EC /* SliderView.swift */; };
 		E5944E0628786E5F008299EC /* The Business.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5944E0528786E5E008299EC /* The Business.mp3 */; };
@@ -39,6 +40,7 @@
 		E5721BC62876E94D00CCEDD8 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
 		E58538EF287F66AC007BC1F6 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		E58538F2287F6C97007BC1F6 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		E58CBF86288601C0007BF269 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		E5944E0028782A5B008299EC /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		E5944E0328786400008299EC /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		E5944E0528786E5E008299EC /* The Business.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Business.mp3"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				E5E47A4A2880C16400F7CB85 /* Lesson 12 */,
 				E5158D542882089E00C56A9B /* Lesson 13 */,
 				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
+				E58CBF85288601AF007BF269 /* Lesson 14 */,
 				E5721BBC2876E93300CCEDD8 /* Preview Content */,
 			);
 			path = SwiftUILessons;
@@ -162,6 +165,14 @@
 				E58538F2287F6C97007BC1F6 /* TextFieldView.swift */,
 			);
 			path = "Lesson 10";
+			sourceTree = "<group>";
+		};
+		E58CBF85288601AF007BF269 /* Lesson 14 */ = {
+			isa = PBXGroup;
+			children = (
+				E58CBF86288601C0007BF269 /* GridView.swift */,
+			);
+			path = "Lesson 14";
 			sourceTree = "<group>";
 		};
 		E5944DFF28782626008299EC /* Lesson3 */ = {
@@ -294,6 +305,7 @@
 				E5C6291A287EC75000A28E66 /* Content_NavigationView.swift in Sources */,
 				E5158D56288208F600C56A9B /* Scroll.swift in Sources */,
 				E55FCDA8287CCE600042D2E4 /* SegmentViewSUI.swift in Sources */,
+				E58CBF87288601C0007BF269 /* GridView.swift in Sources */,
 				E5721BB72876E93200CCEDD8 /* SwiftUILessonsApp.swift in Sources */,
 				E5B98603287E136F00AD31E8 /* ActivityView.swift in Sources */,
 				E5721BC52876E94500CCEDD8 /* AlertView.swift in Sources */,
