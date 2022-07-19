@@ -25,6 +25,7 @@
 		E5B98605287E151100AD31E8 /* Content_ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B98604287E151100AD31E8 /* Content_ActivityView.swift */; };
 		E5C3FF75288737A7007849F6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3FF74288737A7007849F6 /* ListView.swift */; };
 		E5C3FF7728873C29007849F6 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3FF7628873C29007849F6 /* ProductItemView.swift */; };
+		E5C3FF7A288744BA007849F6 /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3FF79288744BA007849F6 /* GestureView.swift */; };
 		E5C6291A287EC75000A28E66 /* Content_NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C62919287EC75000A28E66 /* Content_NavigationView.swift */; };
 		E5E47A492880B9CC00F7CB85 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E47A482880B9CC00F7CB85 /* TextEditorView.swift */; };
 		E5E47A4C2880C18D00F7CB85 /* ImageViewWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E47A4B2880C18D00F7CB85 /* ImageViewWork.swift */; };
@@ -50,6 +51,7 @@
 		E5B98604287E151100AD31E8 /* Content_ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content_ActivityView.swift; sourceTree = "<group>"; };
 		E5C3FF74288737A7007849F6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		E5C3FF7628873C29007849F6 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		E5C3FF79288744BA007849F6 /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
 		E5C62919287EC75000A28E66 /* Content_NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content_NavigationView.swift; sourceTree = "<group>"; };
 		E5E47A482880B9CC00F7CB85 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
 		E5E47A4B2880C18D00F7CB85 /* ImageViewWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewWork.swift; sourceTree = "<group>"; };
@@ -124,9 +126,10 @@
 				E5E47A472880B9AE00F7CB85 /* Lesson 11 */,
 				E5E47A4A2880C16400F7CB85 /* Lesson 12 */,
 				E5158D542882089E00C56A9B /* Lesson 13 */,
-				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
-				E5C3FF7328873748007849F6 /* Lesson 15 */,
 				E58CBF85288601AF007BF269 /* Lesson 14 */,
+				E5C3FF7328873748007849F6 /* Lesson 15 */,
+				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
+				E5C3FF782887449A007849F6 /* Lesson 16 */,
 				E5721BBC2876E93300CCEDD8 /* Preview Content */,
 			);
 			path = SwiftUILessons;
@@ -212,6 +215,14 @@
 				E5C3FF7628873C29007849F6 /* ProductItemView.swift */,
 			);
 			path = "Lesson 15";
+			sourceTree = "<group>";
+		};
+		E5C3FF782887449A007849F6 /* Lesson 16 */ = {
+			isa = PBXGroup;
+			children = (
+				E5C3FF79288744BA007849F6 /* GestureView.swift */,
+			);
+			path = "Lesson 16";
 			sourceTree = "<group>";
 		};
 		E5C62918287EC69A00A28E66 /* Lesson 7 */ = {
@@ -315,6 +326,7 @@
 				E5C3FF75288737A7007849F6 /* ListView.swift in Sources */,
 				E5E47A4C2880C18D00F7CB85 /* ImageViewWork.swift in Sources */,
 				E58538F3287F6C97007BC1F6 /* TextFieldView.swift in Sources */,
+				E5C3FF7A288744BA007849F6 /* GestureView.swift in Sources */,
 				E5944E0128782A5B008299EC /* PickerView.swift in Sources */,
 				E5721BC72876E94D00CCEDD8 /* SwitchView.swift in Sources */,
 				E5C6291A287EC75000A28E66 /* Content_NavigationView.swift in Sources */,
