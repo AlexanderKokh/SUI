@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E50EB3D02889BC0E004D5754 /* customBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EB3CF2889BC0E004D5754 /* customBottomSheet.swift */; };
 		E50EB3D32889E1E6004D5754 /* Lesson20_Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EB3D22889E1E6004D5754 /* Lesson20_Content.swift */; };
+		E50EB3D62889F42D004D5754 /* Neumorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EB3D52889F42D004D5754 /* Neumorphism.swift */; };
 		E50F469C287EDB8E009D9523 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F469B287EDB8E009D9523 /* TabView.swift */; };
 		E5158D56288208F600C56A9B /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5158D55288208F600C56A9B /* Scroll.swift */; };
 		E55FCDA8287CCE600042D2E4 /* SegmentViewSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FCDA7287CCE600042D2E4 /* SegmentViewSUI.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		E50EB3CF2889BC0E004D5754 /* customBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customBottomSheet.swift; sourceTree = "<group>"; };
 		E50EB3D22889E1E6004D5754 /* Lesson20_Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson20_Content.swift; sourceTree = "<group>"; };
+		E50EB3D52889F42D004D5754 /* Neumorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neumorphism.swift; sourceTree = "<group>"; };
 		E50F469B287EDB8E009D9523 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		E5158D55288208F600C56A9B /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
 		E55FCDA7287CCE600042D2E4 /* SegmentViewSUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewSUI.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 				E50EB3D22889E1E6004D5754 /* Lesson20_Content.swift */,
 			);
 			path = "Lesson 20";
+			sourceTree = "<group>";
+		};
+		E50EB3D42889F3F4004D5754 /* Lesson 21 */ = {
+			isa = PBXGroup;
+			children = (
+				E50EB3D52889F42D004D5754 /* Neumorphism.swift */,
+			);
+			path = "Lesson 21";
 			sourceTree = "<group>";
 		};
 		E50F469A287ED977009D9523 /* Lesson 8 */ = {
@@ -154,10 +164,11 @@
 				E5C3FF7328873748007849F6 /* Lesson 15 */,
 				E5C3FF782887449A007849F6 /* Lesson 16 */,
 				E5B65F46288892DB009B2044 /* Lesson 17 */,
-				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
-				E50EB3D12889E1CC004D5754 /* Lesson 20 */,
-				E50EB3CE2889BBEB004D5754 /* Lesson 19 */,
 				E5B65F492888A160009B2044 /* Lesson 18 */,
+				E50EB3CE2889BBEB004D5754 /* Lesson 19 */,
+				E50EB3D12889E1CC004D5754 /* Lesson 20 */,
+				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
+				E50EB3D42889F3F4004D5754 /* Lesson 21 */,
 				E5721BBC2876E93300CCEDD8 /* Preview Content */,
 			);
 			path = SwiftUILessons;
@@ -375,6 +386,7 @@
 				E5944E0128782A5B008299EC /* PickerView.swift in Sources */,
 				E5721BC72876E94D00CCEDD8 /* SwitchView.swift in Sources */,
 				E5C6291A287EC75000A28E66 /* Content_NavigationView.swift in Sources */,
+				E50EB3D62889F42D004D5754 /* Neumorphism.swift in Sources */,
 				E5B65F48288894ED009B2044 /* SUI_Animations.swift in Sources */,
 				E5C3FF7728873C29007849F6 /* ProductItemView.swift in Sources */,
 				E5158D56288208F600C56A9B /* Scroll.swift in Sources */,
