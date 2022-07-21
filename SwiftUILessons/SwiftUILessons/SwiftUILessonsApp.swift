@@ -11,21 +11,26 @@ import SwiftUI
 struct SwiftUILessonsApp: App {
     var body: some Scene {
         WindowGroup {
-            CustomContentView_lesson19 {
-                VStack {
-                    Capsule()
-                        .fill(.white)
-                        .frame(width: 80, height: 3)
-                        .padding(.top)
-                    ForEach(0..<2) { _ in
-                        RoundedRectangle(cornerRadius: 20)
-                            .fill(Color("action"))
-                            .frame(height: 300)
-                            .padding(.horizontal)
-                    }
-                    Spacer()
-                }
-            }
+            
+            Lesson20_Content()
+            
+            // пример с кастомным униврсальным bottomSheet
+            
+//            CustomContentView_lesson19 {
+//                VStack {
+//                    Capsule()
+//                        .fill(.white)
+//                        .frame(width: 80, height: 3)
+//                        .padding(.top)
+//                    ForEach(0..<2) { _ in
+//                        RoundedRectangle(cornerRadius: 20)
+//                            .fill(Color("action"))
+//                            .frame(height: 300)
+//                            .padding(.horizontal)
+//                    }
+//                    Spacer()
+//                }
+//            }
         }
     }
 }
