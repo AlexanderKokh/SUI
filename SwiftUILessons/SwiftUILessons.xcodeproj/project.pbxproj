@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50EB3D02889BC0E004D5754 /* customBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EB3CF2889BC0E004D5754 /* customBottomSheet.swift */; };
 		E50F469C287EDB8E009D9523 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F469B287EDB8E009D9523 /* TabView.swift */; };
 		E5158D56288208F600C56A9B /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5158D55288208F600C56A9B /* Scroll.swift */; };
 		E55FCDA8287CCE600042D2E4 /* SegmentViewSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FCDA7287CCE600042D2E4 /* SegmentViewSUI.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E50EB3CF2889BC0E004D5754 /* customBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customBottomSheet.swift; sourceTree = "<group>"; };
 		E50F469B287EDB8E009D9523 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		E5158D55288208F600C56A9B /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
 		E55FCDA7287CCE600042D2E4 /* SegmentViewSUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewSUI.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E50EB3CE2889BBEB004D5754 /* Lesson 19 */ = {
+			isa = PBXGroup;
+			children = (
+				E50EB3CF2889BC0E004D5754 /* customBottomSheet.swift */,
+			);
+			path = "Lesson 19";
+			sourceTree = "<group>";
+		};
 		E50F469A287ED977009D9523 /* Lesson 8 */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +145,7 @@
 				E5C3FF782887449A007849F6 /* Lesson 16 */,
 				E5B65F46288892DB009B2044 /* Lesson 17 */,
 				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
+				E50EB3CE2889BBEB004D5754 /* Lesson 19 */,
 				E5B65F492888A160009B2044 /* Lesson 18 */,
 				E5721BBC2876E93300CCEDD8 /* Preview Content */,
 			);
@@ -349,6 +360,7 @@
 				E5E47A4C2880C18D00F7CB85 /* ImageViewWork.swift in Sources */,
 				E58538F3287F6C97007BC1F6 /* TextFieldView.swift in Sources */,
 				E5C3FF7A288744BA007849F6 /* GestureView.swift in Sources */,
+				E50EB3D02889BC0E004D5754 /* customBottomSheet.swift in Sources */,
 				E5944E0128782A5B008299EC /* PickerView.swift in Sources */,
 				E5721BC72876E94D00CCEDD8 /* SwitchView.swift in Sources */,
 				E5C6291A287EC75000A28E66 /* Content_NavigationView.swift in Sources */,
