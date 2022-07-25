@@ -12,9 +12,11 @@ struct SwiftUILessonsApp: App {
     var body: some Scene {
         WindowGroup {
             
-            NeumorphismContentView()
+            Lesson22_Path()
+            
+            //NeumorphismContentView()
             //  включаем темную тему
-                .environment(\.colorScheme, .dark)
+            //    .environment(\.colorScheme, .dark)
             
             // пример с кастомным униврсальным bottomSheet            
 //            CustomContentView_lesson19 {
