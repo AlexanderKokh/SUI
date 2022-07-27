@@ -12,7 +12,7 @@ struct SwiftUILessonsApp: App {
     var body: some Scene {
         WindowGroup {
             
-            Lesson22_Path()
+            Lesson23_Content()
             
             //NeumorphismContentView()
             //  включаем темную тему

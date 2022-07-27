@@ -19,6 +19,8 @@
 		E5721BBE2876E93300CCEDD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5721BBD2876E93300CCEDD8 /* Preview Assets.xcassets */; };
 		E5721BC52876E94500CCEDD8 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5721BC42876E94500CCEDD8 /* AlertView.swift */; };
 		E5721BC72876E94D00CCEDD8 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5721BC62876E94D00CCEDD8 /* SwitchView.swift */; };
+		E5837BAC289130BB0095E91D /* GeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5837BAB289130BB0095E91D /* GeometryEffect.swift */; };
+		E5837BAE289131D00095E91D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5837BAD289131D00095E91D /* MenuView.swift */; };
 		E58538F0287F66AC007BC1F6 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58538EF287F66AC007BC1F6 /* TextView.swift */; };
 		E58538F3287F6C97007BC1F6 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58538F2287F6C97007BC1F6 /* TextFieldView.swift */; };
 		E58CBF87288601C0007BF269 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CBF86288601C0007BF269 /* GridView.swift */; };
@@ -51,6 +53,8 @@
 		E5721BBD2876E93300CCEDD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E5721BC42876E94500CCEDD8 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		E5721BC62876E94D00CCEDD8 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		E5837BAB289130BB0095E91D /* GeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryEffect.swift; sourceTree = "<group>"; };
+		E5837BAD289131D00095E91D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		E58538EF287F66AC007BC1F6 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		E58538F2287F6C97007BC1F6 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		E58CBF86288601C0007BF269 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 				E50EB3CE2889BBEB004D5754 /* Lesson 19 */,
 				E50EB3D12889E1CC004D5754 /* Lesson 20 */,
 				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
+				E5837BAA289130AC0095E91D /* Lesson 23 */,
 				E5474D28288F443E00813965 /* Lesson 22 */,
 				E50EB3D42889F3F4004D5754 /* Lesson 21 */,
 				E5721BBC2876E93300CCEDD8 /* Preview Content */,
@@ -207,6 +212,15 @@
 				E5721BC62876E94D00CCEDD8 /* SwitchView.swift */,
 			);
 			path = Lesson2;
+			sourceTree = "<group>";
+		};
+		E5837BAA289130AC0095E91D /* Lesson 23 */ = {
+			isa = PBXGroup;
+			children = (
+				E5837BAB289130BB0095E91D /* GeometryEffect.swift */,
+				E5837BAD289131D00095E91D /* MenuView.swift */,
+			);
+			path = "Lesson 23";
 			sourceTree = "<group>";
 		};
 		E58538EE287F6698007BC1F6 /* Lesson 9 */ = {
@@ -408,7 +422,9 @@
 				E5B65F4B2888A1B5009B2044 /* SUI_transitions.swift in Sources */,
 				E5721BB72876E93200CCEDD8 /* SwiftUILessonsApp.swift in Sources */,
 				E5B98603287E136F00AD31E8 /* ActivityView.swift in Sources */,
+				E5837BAE289131D00095E91D /* MenuView.swift in Sources */,
 				E5721BC52876E94500CCEDD8 /* AlertView.swift in Sources */,
+				E5837BAC289130BB0095E91D /* GeometryEffect.swift in Sources */,
 				E5944E0428786400008299EC /* SliderView.swift in Sources */,
 				E5B98605287E151100AD31E8 /* Content_ActivityView.swift in Sources */,
 			);
