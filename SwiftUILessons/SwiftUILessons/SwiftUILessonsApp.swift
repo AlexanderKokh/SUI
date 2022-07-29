@@ -12,11 +12,17 @@ struct SwiftUILessonsApp: App {
     var body: some Scene {
         WindowGroup {
             
-            Lesson24_ContentView()
+            // Lesson25 Custon Nav Link
+            NavigationView {
+                Lesson25_CustomNavLink(item: Item(name: "Name"))
+            }
             
+        
             //NeumorphismContentView()
-              // включаем темную тему
+            // включаем темную тему
             //    .environment(\.colorScheme, .dark)
+            
+            
             
             // пример с кастомным униврсальным bottomSheet            
 //            CustomContentView_lesson19 {

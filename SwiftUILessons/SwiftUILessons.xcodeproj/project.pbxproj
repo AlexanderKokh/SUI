@@ -32,6 +32,8 @@
 		E5B65F4B2888A1B5009B2044 /* SUI_transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B65F4A2888A1B5009B2044 /* SUI_transitions.swift */; };
 		E5B98603287E136F00AD31E8 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B98602287E136F00AD31E8 /* ActivityView.swift */; };
 		E5B98605287E151100AD31E8 /* Content_ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B98604287E151100AD31E8 /* Content_ActivityView.swift */; };
+		E5C31DA72893E8A300BA9B76 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C31DA62893E8A300BA9B76 /* CustomNavLink.swift */; };
+		E5C31DA92893EBA000BA9B76 /* Navigations+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C31DA82893EBA000BA9B76 /* Navigations+Extension.swift */; };
 		E5C3FF75288737A7007849F6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3FF74288737A7007849F6 /* ListView.swift */; };
 		E5C3FF7728873C29007849F6 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3FF7628873C29007849F6 /* ProductItemView.swift */; };
 		E5C3FF7A288744BA007849F6 /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3FF79288744BA007849F6 /* GestureView.swift */; };
@@ -67,6 +69,8 @@
 		E5B65F4A2888A1B5009B2044 /* SUI_transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUI_transitions.swift; sourceTree = "<group>"; };
 		E5B98602287E136F00AD31E8 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		E5B98604287E151100AD31E8 /* Content_ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content_ActivityView.swift; sourceTree = "<group>"; };
+		E5C31DA62893E8A300BA9B76 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		E5C31DA82893EBA000BA9B76 /* Navigations+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigations+Extension.swift"; sourceTree = "<group>"; };
 		E5C3FF74288737A7007849F6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		E5C3FF7628873C29007849F6 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 		E5C3FF79288744BA007849F6 /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
@@ -186,8 +190,9 @@
 				E50EB3D42889F3F4004D5754 /* Lesson 21 */,
 				E5474D28288F443E00813965 /* Lesson 22 */,
 				E5837BAA289130AC0095E91D /* Lesson 23 */,
-				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
 				E58285A628932A0E00B5B9B2 /* Lesson 24 */,
+				E5721BBA2876E93300CCEDD8 /* Assets.xcassets */,
+				E5C31DA42893D29E00BA9B76 /* Lesson 25 */,
 				E5721BBC2876E93300CCEDD8 /* Preview Content */,
 			);
 			path = SwiftUILessons;
@@ -297,6 +302,15 @@
 				E5B98604287E151100AD31E8 /* Content_ActivityView.swift */,
 			);
 			path = "Lesson 6";
+			sourceTree = "<group>";
+		};
+		E5C31DA42893D29E00BA9B76 /* Lesson 25 */ = {
+			isa = PBXGroup;
+			children = (
+				E5C31DA62893E8A300BA9B76 /* CustomNavLink.swift */,
+				E5C31DA82893EBA000BA9B76 /* Navigations+Extension.swift */,
+			);
+			path = "Lesson 25";
 			sourceTree = "<group>";
 		};
 		E5C3FF7328873748007849F6 /* Lesson 15 */ = {
@@ -416,10 +430,12 @@
 				E58538F0287F66AC007BC1F6 /* TextView.swift in Sources */,
 				E5C3FF75288737A7007849F6 /* ListView.swift in Sources */,
 				E5E47A4C2880C18D00F7CB85 /* ImageViewWork.swift in Sources */,
+				E5C31DA92893EBA000BA9B76 /* Navigations+Extension.swift in Sources */,
 				E5474D2A288F45F000813965 /* PathView.swift in Sources */,
 				E58538F3287F6C97007BC1F6 /* TextFieldView.swift in Sources */,
 				E5C3FF7A288744BA007849F6 /* GestureView.swift in Sources */,
 				E50EB3D02889BC0E004D5754 /* customBottomSheet.swift in Sources */,
+				E5C31DA72893E8A300BA9B76 /* CustomNavLink.swift in Sources */,
 				E5944E0128782A5B008299EC /* PickerView.swift in Sources */,
 				E5721BC72876E94D00CCEDD8 /* SwitchView.swift in Sources */,
 				E5C6291A287EC75000A28E66 /* Content_NavigationView.swift in Sources */,
